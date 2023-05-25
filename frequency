@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+	int a[5],i,c=0,n,m;
+	printf("enter number of elements\n");
+	scanf("%d",&n);
+	for(i=0;i<n;i++)
+	{
+	scanf("%d",&a[i]);
+}  
+	printf("enter the element to check the frequency");
+	scanf("%d",&m);
+	for(i=0;i<n;i++)
+	{
+	if(m==a[i])
+	{
+		c++;
+	}
+}
+
+	printf("%d times",c);
+	
+}
